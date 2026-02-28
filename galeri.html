@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gallery</title>
+        <style>
+            body{
+                margin: 0px;
+                padding: 0px;
+                background-color: rgb(186, 221, 233);
+            }
+            ul{
+                list-style-type: none;
+                padding: 0px;
+                margin: 0px;
+                width: 160px;
+                background-color: pink;
+                height: 100%;
+                position: fixed;
+            }
+            li a{
+                display: block;
+                text-decoration: none;
+                color: red;
+                padding: 10px 8px;
+                transition: 0.3s;
+            }
+            li a:hover{
+                background-color: salmon;
+                color: beige;
+            }
+            li a.active{
+                font-weight: bold;
+                background-color: salmon;
+                color: beige;
+            }
+            .content{
+                margin-left: 175px;
+                padding: 20px;
+            }
+            h1{
+                color: rgb(75, 113, 163);
+            }
+            .galeri-grid{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            }
+            .galeri-item{
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            }
+            .galeri-item img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="praktek.html">Home</a></li>
+            <li><a href="ds_japan.html">DisneySea Japan</a></li>
+            <li><a href="osakaC.html">Osaka Castle</a></li>
+            <li><a href="GhibliM.html">Ghibli Museum</a></li>
+            <li><a href="kuliner.html">Culinary</a></li>
+            <li><a href="acara.html">Events</a></li>
+            <li><a class="active" href="galeri.html">Gallery</a></li>
+            <li><a href="kontak.html">Contact</a></li>
+            <li><a href="tentangkami.html">About Us</a></li>
+            <li><a href="video_penjelasan.html">Video Explanation</a></li>
+        </ul>
+        <div class="content">
+            <center>
+                <h1>ホームページ</h1>
+                <h2>DisneySea Japan</h2>
+                <div class="galeri-grid">
+                <div class="galeri-item"><img src="Foto1DS-Galeri.jpg" alt=""></div>
+                <div class="galeri-item"><img src="Foto2DS-Galeri.jpg" alt=""></div>
+                <div class="galeri-item"><img src="Foto3DS-Galeri.jpg" alt=""></div>
+                <div class="galeri-item"><img src="Foto4DS-Galeri.jpg" alt=""></div>
+                <div class="galeri-item"><img src="Foto5DS-Galeri.jpg" alt=""></div>
+                <div class="galeri-item"><img src="Foto6DS-Galeri.jpg" alt=""></div>
+                </div>
+                <h2>Osaka Castle</h2>
+                <div class="galeri-grid">
+                <div class="galeri-item"><img src="Foto1OC-Galeri.jpg" alt=""></div>
+                <div class="galeri-item"><img src="Foto2OC-Galeri.jpg" alt=""></div>
+                <div class="galeri-item"><img src="Foto3OC-Galeri.jpg" alt=""></div>
+                <div class="galeri-item"><img src="Foto4OC-Galeri.jpg" alt=""></div>
+                <div class="galeri-item"><img src="Foto5OC-Galeri.png" alt=""></div>
+                <div class="galeri-item"><img src="Foto6OC-Galeri.jpg" alt=""></div>
+                </div>
+                <h2>Ghibli Museum</h2>
+                <div class="galeri-grid">
+                <div class="galeri-item"><img src="Foto1GM-Galeri.png" alt=""></div>
+                <div class="galeri-item"><img src="Foto2GM-Galeri.png" alt=""></div>
+                <div class="galeri-item"><img src="Foto3GM-Galeri.png" alt=""></div>
+                <div class="galeri-item"><img src="Foto4GM-Galeri.png" alt=""></div>
+                <div class="galeri-item"><img src="Foto5GM-Galeri.png" alt=""></div>
+                <div class="galeri-item"><img src="Foto6GM-Galeri.png" alt=""></div>
+                </div>
+            </center>
+        </div>
+    </body>
+</html>

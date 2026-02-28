@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Us</title>
+        <style>
+            body{
+                margin: 0px;
+                padding: 0px;
+                background-color: rgb(186, 221, 233);
+            }
+            ul{
+                list-style-type: none;
+                padding: 0px;
+                margin: 0px;
+                width: 160px;
+                background-color:pink;
+                height: 100%;
+                position: fixed;
+            }
+            li a{
+                display: block;
+                text-decoration: none;
+                color: red;
+                padding: 10px 8px;
+                transition: 0.3s;
+            }
+            li a:hover{
+                background-color: salmon;
+                color: beige;
+            }
+            li a.active{
+                font-weight: bold;
+                background-color: salmon;
+                color: beige;
+            }
+            .content{
+                margin-left: 175px;
+                padding: 5px 5px;
+            }
+            h1{
+                color: rgb(75, 113, 163);
+            }
+            img{
+                height: 375px;
+                width: 750px;
+                border-radius: 15%;
+            }
+            p{
+                background-color: white;
+                border-radius: 20px;
+                width: 750px;
+                text-align: center;
+                padding: 20px;
+            }
+            .tim{
+                width: 750px;
+                margin-top: 20px;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 15px;
+            }
+            .tim-card{
+                background-color: white;
+                border-radius: 15px;
+                padding: 12px;
+                box-sizing: border-box;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            }
+            .tim-foto{
+                width:100%;
+                height:160px;
+                border-radius:12px;
+                overflow:hidden;
+                margin-bottom:10px;
+                }
+            .tim-foto img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .tim-text{
+                text-align: left;
+                font-size: 14px;
+            }
+            .tim-text b{
+                color: rgb(75, 113, 163);
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+        <li><a href="praktek.html">Home</a></li>
+        <li><a href="ds_japan.html">DisneySea Japan</a></li>
+        <li><a href="osakaC.html">Osaka Castle</a></li>
+        <li><a href="GhibliM.html">Ghibli Museum</a></li>
+        <li><a href="kuliner.html">Culinary</a></li>
+        <li><a href="acara.html">Events</a></li>
+        <li><a href="galeri.html">Gallery</a></li>
+        <li><a href="kontak.html">Contact</a></li>
+        <li><a class="active" href="tentangkami.html">About Us</a></li>
+        <li><a href="video_penjelasan.html">Video Explanation</a></li>
+        </ul>
+        <div class="content">
+        <center>
+            <h1>ホームページ</h1>
+            <h2>About Us</h2>
+            <p>
+            We are Group 3 (TIK). We created this website to help people and tourists who want to go on vacation, especially to Japan.
+            Our goal is to provide simple and useful information about tourist destinations in Japan, so visitors can plan their trip
+            more easily and enjoy their holiday. We hope this website can be a helpful guide for anyone who wants to explore Japan and
+            discover new experiences.
+            </p>
+            <h2>Our Team</h2>
+            <div class="tim">
+            <div class="tim-card">
+                <div class="tim-foto">
+                    <img src="AboutUs-Sha.jpeg" alt="">
+                </div>
+                <div class="tim-text">
+                    <b>Name:</b> Shalom Lakeizha <br>
+                    <b>No. Absen:</b> 20 
+                </div>
+            </div>
+            <div class="tim-card">
+                <div class="tim-foto">
+                    <img src="AboutUs-There.jpeg" alt="">
+                </div>
+                <div class="tim-text">
+                    <b>Name:</b> Theresia Efendy <br>
+                    <b>No. Absen:</b> 22
+                </div>
+            </div>
+            <div class="tim-card">
+                <div class="tim-foto">
+                    <img src="AboutUs-Felix.jpeg" alt="">
+                </div>
+                <div class="tim-text">
+                    <b>Name:</b> Felix Errando Wiryawan <br>
+                    <b>No. Absen:</b> 6 
+                </div>
+            </div>
+            <div class="tim-card">
+                <div class="tim-foto">
+                    <img src="AboutUs-Jen.jpeg" alt="">
+                </div>
+                <div class="tim-text">
+                    <b>Name:</b> Jennifer Alicia <br>
+                    <b>No. Absen:</b> 12 
+                </div>
+            </div>
+            <div class="tim-card">
+                <div class="tim-foto">
+                    <img src="AboutUs-Majesty.jpeg" alt="">
+                </div>
+                <div class="tim-text">
+                    <b>Name:</b> Majesty Maqdalene Abigail Sumajow <br>
+                    <b>No. Absen:</b> 15 
+                </div>
+            </div>
+            <div class="tim-card">
+                <div class="tim-foto">
+                    <img src="AboutUs-Ano.jpeg" alt="">
+                </div>
+                <div class="tim-text">
+                    <b>Name:</b> Stefano Damanik <br>
+                    <b>No. Absen:</b> 21
+                </div>
+            </div>
+        </div>
+        </center>
+        </div>
+    </body>
+</html>

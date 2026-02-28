@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Video Explanation</title>
+        <style>
+            body{
+                margin: 0px;
+                padding: 0px;
+                background-color: rgb(186, 221, 233);
+            }
+            ul{
+                list-style-type: none;
+                padding: 0px;
+                margin: 0px;
+                width: 160px;
+                background-color:pink;
+                height: 100%;
+                position: fixed;
+            }
+            li a{
+                display: block;
+                text-decoration: none;
+                color: red;
+                padding: 10px 8px;
+                transition: 0.3s;
+            }
+            li a:hover{
+                background-color: salmon;
+                color: beige;
+            }
+            li a.active{
+                font-weight: bold;
+                background-color: salmon;
+                color: beige;
+            }
+            .content{
+                margin-left: 175px;
+                padding: 5px 5px;
+            }
+            h1{
+                color: rgb(75, 113, 163);
+            }
+            .video-box{
+                width: 750px;
+                background-color: white;
+                border-radius: 20px;
+                padding: 15px;
+                box-sizing: border-box;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            }
+            video{
+                width: 100%;
+                height: auto;
+                border-radius: 15px;
+                display: block;
+            }
+            p{
+                background-color: white;
+                border-radius: 20px;
+                width: 750px;
+                text-align: center;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="praktek.html">Home</a></li>
+            <li><a href="ds_japan.html">DisneySea Japan</a></li>
+            <li><a href="osakaC.html">Osaka Castle</a></li>
+            <li><a href="GhibliM.html">Ghibli Museum</a></li>
+            <li><a href="kuliner.html">Culinary</a></li>
+            <li><a href="acara.html">Events</a></li>
+            <li><a href="galeri.html">Gallery</a></li>
+            <li><a href="kontak.html">Contact</a></li>
+            <li><a href="tentangkami.html">About Us</a></li>
+            <li><a class="active" href="video_penjelasan.html">Video Explanation</a></li>
+        </ul>
+        <div class="content">
+            <center>
+                <h1>ホームページ</h1>
+                <h2>Video Explanation</h2>
+
+                <div class="video-box">
+                    <video controls>
+                        <source src="video_penjelasan.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <p>
+                    The video above is an explanation video of the website we created. It explains the function of each button and
+                    provides examples of the tourist destinations featured on the site. This explanation shows that when users open
+                    the website and click each button, the pages and content will appear exactly as demonstrated in the video.
+                </p>
+            </center>
+        </div>
+    </body>
+</html>
